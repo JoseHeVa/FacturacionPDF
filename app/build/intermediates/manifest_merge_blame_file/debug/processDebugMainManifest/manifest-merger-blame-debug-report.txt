@@ -1,0 +1,160 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.facturacionpdf"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <permission
+11-->[androidx.core:core:1.13.1] C:\Users\compa\.gradle\caches\transforms-4\66178fb6470f91d16da892082135a409\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.facturacionpdf.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.13.1] C:\Users\compa\.gradle\caches\transforms-4\66178fb6470f91d16da892082135a409\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.13.1] C:\Users\compa\.gradle\caches\transforms-4\66178fb6470f91d16da892082135a409\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.facturacionpdf.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.13.1] C:\Users\compa\.gradle\caches\transforms-4\66178fb6470f91d16da892082135a409\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.13.1] C:\Users\compa\.gradle\caches\transforms-4\66178fb6470f91d16da892082135a409\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\compa\Downloads\FacturacionPDF\FacturacionPDF\app\src\main\AndroidManifest.xml:4:5-31:19
+18        android:name="com.example.facturacionpdf.FacturacionApp"
+18-->C:\Users\compa\Downloads\FacturacionPDF\FacturacionPDF\app\src\main\AndroidManifest.xml:5:9-39
+19        android:allowBackup="true"
+19-->C:\Users\compa\Downloads\FacturacionPDF\FacturacionPDF\app\src\main\AndroidManifest.xml:6:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.13.1] C:\Users\compa\.gradle\caches\transforms-4\66178fb6470f91d16da892082135a409\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+21        android:debuggable="true"
+22        android:exported="false"
+22-->C:\Users\compa\Downloads\FacturacionPDF\FacturacionPDF\app\src\main\AndroidManifest.xml:10:9-33
+23        android:extractNativeLibs="false"
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\compa\Downloads\FacturacionPDF\FacturacionPDF\app\src\main\AndroidManifest.xml:7:9-43
+25        android:label="Facturacion PDF"
+25-->C:\Users\compa\Downloads\FacturacionPDF\FacturacionPDF\app\src\main\AndroidManifest.xml:8:9-40
+26        android:testOnly="true"
+27        android:theme="@style/Theme.FacturacionPDF" >
+27-->C:\Users\compa\Downloads\FacturacionPDF\FacturacionPDF\app\src\main\AndroidManifest.xml:9:9-52
+28        <provider
+29            android:name="androidx.core.content.FileProvider"
+29-->C:\Users\compa\Downloads\FacturacionPDF\FacturacionPDF\app\src\main\AndroidManifest.xml:13:13-62
+30            android:authorities="com.example.facturacionpdf.fileprovider"
+30-->C:\Users\compa\Downloads\FacturacionPDF\FacturacionPDF\app\src\main\AndroidManifest.xml:14:13-64
+31            android:exported="false"
+31-->C:\Users\compa\Downloads\FacturacionPDF\FacturacionPDF\app\src\main\AndroidManifest.xml:15:13-37
+32            android:grantUriPermissions="true" >
+32-->C:\Users\compa\Downloads\FacturacionPDF\FacturacionPDF\app\src\main\AndroidManifest.xml:16:13-47
+33            <meta-data
+33-->C:\Users\compa\Downloads\FacturacionPDF\FacturacionPDF\app\src\main\AndroidManifest.xml:17:13-19:54
+34                android:name="android.support.FILE_PROVIDER_PATHS"
+34-->C:\Users\compa\Downloads\FacturacionPDF\FacturacionPDF\app\src\main\AndroidManifest.xml:18:17-67
+35                android:resource="@xml/file_paths" />
+35-->C:\Users\compa\Downloads\FacturacionPDF\FacturacionPDF\app\src\main\AndroidManifest.xml:19:17-51
+36        </provider>
+37
+38        <activity
+38-->C:\Users\compa\Downloads\FacturacionPDF\FacturacionPDF\app\src\main\AndroidManifest.xml:22:9-30:20
+39            android:name="com.example.facturacionpdf.MainActivity"
+39-->C:\Users\compa\Downloads\FacturacionPDF\FacturacionPDF\app\src\main\AndroidManifest.xml:23:13-41
+40            android:exported="true"
+40-->C:\Users\compa\Downloads\FacturacionPDF\FacturacionPDF\app\src\main\AndroidManifest.xml:24:13-36
+41            android:theme="@style/Theme.FacturacionPDF" >
+41-->C:\Users\compa\Downloads\FacturacionPDF\FacturacionPDF\app\src\main\AndroidManifest.xml:25:13-56
+42            <intent-filter>
+42-->C:\Users\compa\Downloads\FacturacionPDF\FacturacionPDF\app\src\main\AndroidManifest.xml:26:13-29:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\compa\Downloads\FacturacionPDF\FacturacionPDF\app\src\main\AndroidManifest.xml:27:17-69
+43-->C:\Users\compa\Downloads\FacturacionPDF\FacturacionPDF\app\src\main\AndroidManifest.xml:27:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\compa\Downloads\FacturacionPDF\FacturacionPDF\app\src\main\AndroidManifest.xml:28:17-77
+45-->C:\Users\compa\Downloads\FacturacionPDF\FacturacionPDF\app\src\main\AndroidManifest.xml:28:27-74
+46            </intent-filter>
+47        </activity>
+48        <activity
+48-->[androidx.compose.ui:ui-tooling-android:1.7.3] C:\Users\compa\.gradle\caches\transforms-4\3ad94c622af2a717d2821617adf584ae\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+49            android:name="androidx.compose.ui.tooling.PreviewActivity"
+49-->[androidx.compose.ui:ui-tooling-android:1.7.3] C:\Users\compa\.gradle\caches\transforms-4\3ad94c622af2a717d2821617adf584ae\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+50            android:exported="true" />
+50-->[androidx.compose.ui:ui-tooling-android:1.7.3] C:\Users\compa\.gradle\caches\transforms-4\3ad94c622af2a717d2821617adf584ae\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+51
+52        <provider
+52-->[androidx.emoji2:emoji2:1.3.0] C:\Users\compa\.gradle\caches\transforms-4\128c63aca3a3bec880653f1869d24f58\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+53            android:name="androidx.startup.InitializationProvider"
+53-->[androidx.emoji2:emoji2:1.3.0] C:\Users\compa\.gradle\caches\transforms-4\128c63aca3a3bec880653f1869d24f58\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+54            android:authorities="com.example.facturacionpdf.androidx-startup"
+54-->[androidx.emoji2:emoji2:1.3.0] C:\Users\compa\.gradle\caches\transforms-4\128c63aca3a3bec880653f1869d24f58\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+55            android:exported="false" >
+55-->[androidx.emoji2:emoji2:1.3.0] C:\Users\compa\.gradle\caches\transforms-4\128c63aca3a3bec880653f1869d24f58\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+56            <meta-data
+56-->[androidx.emoji2:emoji2:1.3.0] C:\Users\compa\.gradle\caches\transforms-4\128c63aca3a3bec880653f1869d24f58\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+57                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+57-->[androidx.emoji2:emoji2:1.3.0] C:\Users\compa\.gradle\caches\transforms-4\128c63aca3a3bec880653f1869d24f58\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+58                android:value="androidx.startup" />
+58-->[androidx.emoji2:emoji2:1.3.0] C:\Users\compa\.gradle\caches\transforms-4\128c63aca3a3bec880653f1869d24f58\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+59            <meta-data
+59-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\compa\.gradle\caches\transforms-4\ff4132b5ed913e4d5f14e278f84dcbba\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:29:13-31:52
+60                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+60-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\compa\.gradle\caches\transforms-4\ff4132b5ed913e4d5f14e278f84dcbba\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:30:17-78
+61                android:value="androidx.startup" />
+61-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\compa\.gradle\caches\transforms-4\ff4132b5ed913e4d5f14e278f84dcbba\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:31:17-49
+62            <meta-data
+62-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\compa\.gradle\caches\transforms-4\526fae0a63335ec01b29d6e5a64d275d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+63                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+63-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\compa\.gradle\caches\transforms-4\526fae0a63335ec01b29d6e5a64d275d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+64                android:value="androidx.startup" />
+64-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\compa\.gradle\caches\transforms-4\526fae0a63335ec01b29d6e5a64d275d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+65        </provider>
+66
+67        <service
+67-->[androidx.room:room-runtime:2.6.1] C:\Users\compa\.gradle\caches\transforms-4\3644274fea0e5e45b01dc19ffeb8fdea\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+68            android:name="androidx.room.MultiInstanceInvalidationService"
+68-->[androidx.room:room-runtime:2.6.1] C:\Users\compa\.gradle\caches\transforms-4\3644274fea0e5e45b01dc19ffeb8fdea\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+69            android:directBootAware="true"
+69-->[androidx.room:room-runtime:2.6.1] C:\Users\compa\.gradle\caches\transforms-4\3644274fea0e5e45b01dc19ffeb8fdea\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+70            android:exported="false" />
+70-->[androidx.room:room-runtime:2.6.1] C:\Users\compa\.gradle\caches\transforms-4\3644274fea0e5e45b01dc19ffeb8fdea\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+71
+72        <receiver
+72-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\compa\.gradle\caches\transforms-4\526fae0a63335ec01b29d6e5a64d275d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+73            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+73-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\compa\.gradle\caches\transforms-4\526fae0a63335ec01b29d6e5a64d275d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+74            android:directBootAware="false"
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\compa\.gradle\caches\transforms-4\526fae0a63335ec01b29d6e5a64d275d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+75            android:enabled="true"
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\compa\.gradle\caches\transforms-4\526fae0a63335ec01b29d6e5a64d275d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+76            android:exported="true"
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\compa\.gradle\caches\transforms-4\526fae0a63335ec01b29d6e5a64d275d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+77            android:permission="android.permission.DUMP" >
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\compa\.gradle\caches\transforms-4\526fae0a63335ec01b29d6e5a64d275d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+78            <intent-filter>
+78-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\compa\.gradle\caches\transforms-4\526fae0a63335ec01b29d6e5a64d275d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+79                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\compa\.gradle\caches\transforms-4\526fae0a63335ec01b29d6e5a64d275d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\compa\.gradle\caches\transforms-4\526fae0a63335ec01b29d6e5a64d275d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+80            </intent-filter>
+81            <intent-filter>
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\compa\.gradle\caches\transforms-4\526fae0a63335ec01b29d6e5a64d275d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+82                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\compa\.gradle\caches\transforms-4\526fae0a63335ec01b29d6e5a64d275d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\compa\.gradle\caches\transforms-4\526fae0a63335ec01b29d6e5a64d275d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+83            </intent-filter>
+84            <intent-filter>
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\compa\.gradle\caches\transforms-4\526fae0a63335ec01b29d6e5a64d275d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+85                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\compa\.gradle\caches\transforms-4\526fae0a63335ec01b29d6e5a64d275d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\compa\.gradle\caches\transforms-4\526fae0a63335ec01b29d6e5a64d275d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+86            </intent-filter>
+87            <intent-filter>
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\compa\.gradle\caches\transforms-4\526fae0a63335ec01b29d6e5a64d275d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+88                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\compa\.gradle\caches\transforms-4\526fae0a63335ec01b29d6e5a64d275d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\compa\.gradle\caches\transforms-4\526fae0a63335ec01b29d6e5a64d275d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+89            </intent-filter>
+90        </receiver>
+91    </application>
+92
+93</manifest>
